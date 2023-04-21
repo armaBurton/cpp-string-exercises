@@ -6,11 +6,12 @@ using namespace std;
 
 reverseString reverse;
 
-class StringMethods {
-public:
+struct StringMethods {
   static void reverseString(){
     reverse.stringReverse();
   }
-  
 
+  static void titleCase(){
+    
+  }
 };

@@ -11,7 +11,8 @@ int main(void){
     std::cout << "\nC++ String Exercises\n"
               << "Select an option:\n"
               << "\n"
-              << "1. Reverse a string\n"
+              << "1. Reverse\n"
+              << "2. Title Case\n"
               << "999. quit\n";
     std::cin >> option;
 
@@ -19,11 +20,11 @@ int main(void){
       break;
     } else if (option == "1"){
       methodChooser.reverseString();
+    } else if (option == "2"){
+      methodChooser.titleCase();
     }
     
   }
-
-
 
   return 0;
 }

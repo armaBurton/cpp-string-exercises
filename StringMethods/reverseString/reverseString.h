@@ -1,15 +1,15 @@
 #include <iostream>
-#include <conio.h>
+#include "../Pause/Pause.h"
+#include "../InputAString/InputAString.h"
 
 using namespace std;
 
+Pause pause;
+InputAString inputAString;
+
 struct reverseString {
   static void stringReverse(){
-    string consoleInput, reverseInput;
-
-    cout << "\nEnter a string to reverse:\n";
-    cin.ignore();
-    getline(cin, consoleInput);
+    string consoleInput = inputAString.stringToInput("Enter a string to reverse:");
 
     int inputLength = consoleInput.length();
     for (int i = 0; i < inputLength / 2;i++){
@@ -17,12 +17,6 @@ struct reverseString {
     }
     cout << consoleInput << endl;
   
-    char keypress {};
-    do{
-      cout << "\nPress any key to continue...\n"
-           << "? ";
-      keypress = _getch();
-    }while(!keypress);
-    cout << endl;
+    pause.waitForKeyStroke();
   }
 };
