@@ -21,7 +21,7 @@ int main(void){
     } else if (option == "1"){
       methodChooser.reverseAString();
     } else if (option == "2"){
-      methodChooser.titleCase();
+      methodChooser.toTitleCase();
     }
     
   }

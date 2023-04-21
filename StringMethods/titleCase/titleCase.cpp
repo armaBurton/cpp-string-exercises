@@ -5,7 +5,7 @@
 using namespace std;
 
 void titleCase(){
-  string consoleInput = inputAString("Type a sentence to Title Case.");
+  string consoleInput = inputAString("Type a sentence to convert into Title Case.");
 
   cout << endl << consoleInput << endl;
 

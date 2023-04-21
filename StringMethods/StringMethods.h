@@ -10,7 +10,7 @@ struct StringMethods {
     reverseString();
   }
 
-  static void titleCase(){
-    
+  static void toTitleCase(){
+    titleCase();
   }
 };
