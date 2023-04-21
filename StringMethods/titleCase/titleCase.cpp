@@ -6,12 +6,16 @@ using namespace std;
 
 void titleCase(){
   string consoleInput = inputAString("Type a sentence to convert into Title Case.");
+  string temp {};
 
-  for(int i = 0; i < consoleInput.length(); i++ ){
-    
+  for (auto letter : consoleInput){
+    if (letter != ' '){
+      temp = temp + letter;
+    } else if (letter ==  ' '){
+      cout << temp << endl;
+      temp = "";
+    }
   }
-
-  cout << endl << consoleInput << endl;
 
   pause();
 }
