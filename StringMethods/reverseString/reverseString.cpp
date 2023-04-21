@@ -5,7 +5,7 @@
 using namespace std;
 
 void reverseString(){
-  string consoleInput = inputAString("Type a sentence.");
+  string consoleInput = inputAString("Type a sentence to reverse.");
 
   int inputLength = consoleInput.length();
   for (int i = 0; i < inputLength / 2; i++){

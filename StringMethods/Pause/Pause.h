@@ -2,4 +2,4 @@
 #include <conio.h>
 
 
-void waitForKeyStroke (){};
+void pause ();

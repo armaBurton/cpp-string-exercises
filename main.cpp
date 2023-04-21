@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "StringMethods/StringMethods.h"
+
 int main(void){
   std::string option;
   
