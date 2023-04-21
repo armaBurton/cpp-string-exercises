@@ -1,14 +1,12 @@
 #include <iostream>
 #include <conio.h>
-#include "reverseString/reverseString.h"
+#include "reverseString/reverseString.cpp"
 
 using namespace std;
 
-reverseString reverse;
-
 struct StringMethods {
   static void reverseString(){
-    reverse.stringReverse();
+    reverseString();
   }
 
   static void titleCase(){
