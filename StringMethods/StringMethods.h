@@ -1,11 +1,11 @@
 #include <iostream>
 #include <conio.h>
-#include "reverseString/reverseString.cpp"
+#include "./reverseString/reverseString.cpp"
 
 using namespace std;
 
 struct StringMethods {
-  static void reverseString(){
+  static void reverseAString(){
     reverseString();
   }
 

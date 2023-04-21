@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "StringMethods/StringMethods.h"
-
 int main(void){
   std::string option;
   
@@ -19,7 +18,7 @@ int main(void){
     if (option == "999"){
       break;
     } else if (option == "1"){
-      methodChooser.reverseString();
+      methodChooser.reverseAString();
     } else if (option == "2"){
       methodChooser.titleCase();
     }
