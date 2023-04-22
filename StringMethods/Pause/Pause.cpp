@@ -7,8 +7,7 @@ using namespace std;
 void pause (){
   char keypress {};
   do{
-    cout << "\nPress any key to continue...\n"
-          << "? ";
+    cout << "\n\n(Press any key to continue)";
     keypress = _getch();
   }while(!keypress);
   cout << endl;
