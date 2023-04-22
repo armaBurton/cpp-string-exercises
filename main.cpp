@@ -23,7 +23,6 @@ int main(void){
     } else if (option == "2"){
       methodChooser.toTitleCase();
     }
-    
   }
 
   return 0;
