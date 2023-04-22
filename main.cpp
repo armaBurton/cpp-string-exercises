@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "StringMethods/StringMethods.h"
+#include "StringMethods\StringMethods.h"
 
 int main(void){
   std::string option;
@@ -13,6 +13,7 @@ int main(void){
               << "\n"
               << "1. Reverse\n"
               << "2. Title Case\n"
+              << "3. Largest Word\n"
               << "999. quit\n";
     std::cin >> option;
 
@@ -22,6 +23,8 @@ int main(void){
       methodChooser.reverseAString();
     } else if (option == "2"){
       methodChooser.toTitleCase();
+    } else if (option == "3"){
+      methodChooser.getBiggestWord();
     }
   }
 

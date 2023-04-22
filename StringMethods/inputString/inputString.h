@@ -2,4 +2,4 @@
 
 using namespace std;
 
-string inputString(string inputString);
+string inputAString(string inputString);

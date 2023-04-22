@@ -1,6 +1,6 @@
 #include <iostream>
-#include "../inputString/inputString.h"
-#include "../Pause/Pause.h"
+#include "../inputString/inputString.cpp"
+#include "../Pause/Pause.cpp"
 
 using namespace std;
 
