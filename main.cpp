@@ -13,7 +13,7 @@ int main(void){
               << "\n"
               << "1. Reverse\n"
               << "2. Title Case\n"
-              << "3. Largest Word\n"
+              << "3. Find Largest Word\n"
               << "999. quit\n";
     std::cin >> option;
 
