@@ -14,10 +14,10 @@ int main(void){
               << "1. Reverse\n"
               << "2. Title Case\n"
               << "3. Find Largest Word\n"
-              << "999. quit\n";
+              << "Q. quit\n";
     std::cin >> option;
 
-    if (option == "999"){
+    if (option == "q" || option == "Q"){
       break;
     } else if (option == "1"){
       methodChooser.reverseAString();
