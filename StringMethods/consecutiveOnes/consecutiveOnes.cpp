@@ -32,5 +32,5 @@ void consecutiveOnes(){
       currentCount = 0;
     }
   }
-
+  cout << totalCount << endl;
 }
