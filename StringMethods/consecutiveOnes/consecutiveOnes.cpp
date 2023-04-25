@@ -5,5 +5,21 @@
 using namespace std;
 
 void consecutiveOnes(){
-  cout << "consecutive ones" << endl;
+  bool prev = false;
+  int currentCount {}, totalCount {};  
+  string consoleInput = inputAString("Type a set of numbers to get the longest sequence of consecutive ones.");
+
+  for (auto letter : consoleInput){
+    //if letter == 1
+      //if prev = true
+        //current++
+      //prev = true
+      //if current > count
+        //count = current
+    //else if letter != 1
+      //prev = false
+      //current = 0
+  }
+  if (letter == 1)
+
 }
