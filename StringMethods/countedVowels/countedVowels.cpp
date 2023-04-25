@@ -30,6 +30,7 @@ void countedVowels(){
     }
   }
 
-  cout << "The total amount of vowels in the entered sentence is, " << count << endl;
+  cout << endl
+       << "The total amount of vowels in the entered sentence is, " << count << endl;
   
 }
