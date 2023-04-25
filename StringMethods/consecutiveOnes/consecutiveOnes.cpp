@@ -23,9 +23,9 @@ void consecutiveOnes(){
       ++currentCount;
       if (totalCount < currentCount){
         totalCount = currentCount;
-      } else {
-        currentCount = 0;
       }
+    } else {
+      currentCount = 0;
     }
   }
   cout << totalCount << endl;
