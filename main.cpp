@@ -14,6 +14,7 @@ int main(void){
               << "1. Reverse\n"
               << "2. Title Case\n"
               << "3. Find Largest Word\n"
+              << "4. Count the Vowels"
               << "Q. quit\n";
     std::cin >> option;
 
@@ -25,6 +26,8 @@ int main(void){
       methodChooser.toTitleCase();
     } else if (option == "3"){
       methodChooser.getBiggestWord();
+    } else if (option == "4"){
+      methodChooser.countVowels();
     }
   }
 
