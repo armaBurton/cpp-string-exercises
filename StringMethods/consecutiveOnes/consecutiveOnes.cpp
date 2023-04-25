@@ -19,7 +19,18 @@ void consecutiveOnes(){
     //else if letter != 1
       //prev = false
       //current = 0
+    if (letter == 1){
+      if (prev == true){
+        currentCount++;
+      }
+      if (currentCount > totalCount){
+        totalCount = currentCount;
+      }
+      prev = true;
+    }else if (letter != 1){
+      prev = false;
+      currentCount = 0;
+    }
   }
-  if (letter == 1)
 
 }
