@@ -15,6 +15,7 @@ int main(void){
               << "2. Title Case\n"
               << "3. Find Largest Word\n"
               << "4. Count the Vowels\n"
+              << "5. Consecutive Ones\n"
               << "Q. quit\n";
     std::cin >> option;
 
@@ -28,6 +29,8 @@ int main(void){
       methodChooser.getBiggestWord();
     } else if (option == "4"){
       methodChooser.countVowels();
+    } else if (option == "5"){
+      methodChooser.countConsecutiveOnes();
     }
   }
 

@@ -4,6 +4,7 @@
 #include "./titleCase/titleCase.cpp"
 #include "./biggestWord/biggestword.cpp"
 #include "./countedVowels/countedVowels.cpp"
+#include "./consecutiveOnes/consecutiveOnes.cpp"
 
 using namespace std;
 
@@ -22,5 +23,9 @@ struct StringMethods {
 
   static void countVowels(){
     countedVowels();
+  }
+
+  static void countConsecutiveOnes(){
+    consecutiveOnes();
   }
 };
