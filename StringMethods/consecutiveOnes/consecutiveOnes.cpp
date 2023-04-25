@@ -28,5 +28,8 @@ void consecutiveOnes(){
       currentCount = 0;
     }
   }
-  cout << totalCount << endl;
+  cout << endl 
+       << "The total amount of consecutive ones is " << totalCount << endl;
+
+  pause();
 }
