@@ -14,7 +14,7 @@ int main(void){
               << "1. Reverse\n"
               << "2. Title Case\n"
               << "3. Find Largest Word\n"
-              << "4. Count the Vowels"
+              << "4. Count the Vowels\n"
               << "Q. quit\n";
     std::cin >> option;
 

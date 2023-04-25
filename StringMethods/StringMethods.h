@@ -3,6 +3,7 @@
 #include "./reverseString/reverseString.cpp"
 #include "./titleCase/titleCase.cpp"
 #include "./biggestWord/biggestword.cpp"
+#include "./countedVowels/countedVowels.cpp"
 
 using namespace std;
 
@@ -20,6 +21,6 @@ struct StringMethods {
   }
 
   static void countVowels(){
-    countedVowles();
+    countedVowels();
   }
 };
