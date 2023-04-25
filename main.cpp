@@ -16,7 +16,8 @@ int main(void){
               << "3. Find Largest Word\n"
               << "4. Count the Vowels\n"
               << "5. Consecutive Ones\n"
-              << "Q. quit\n";
+              << "Q. quit\n"
+              << endl;
     std::cin >> option;
 
     if (option == "q" || option == "Q"){
