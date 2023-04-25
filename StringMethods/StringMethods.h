@@ -18,4 +18,8 @@ struct StringMethods {
   static void getBiggestWord() {
     biggestWord();
   }
+
+  static void countVowels(){
+    countedVowles();
+  }
 };
