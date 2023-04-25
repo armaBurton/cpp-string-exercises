@@ -7,7 +7,7 @@ using namespace std;
 void consecutiveOnes(){
   bool prev = false;
   int currentCount {}, totalCount {};  
-  string consoleInput = inputAString("Type a set of numbers to get the longest sequence of consecutive ones.");
+  string consoleInput = inputAString("Type a set of numbers to get the longest sequence of consecutive ones.").append(" ");
 
   for (auto letter : consoleInput){
     //if letter == 1
@@ -19,7 +19,8 @@ void consecutiveOnes(){
     //else if letter != 1
       //prev = false
       //current = 0
-    if (letter == 1){
+    if (letter == '1'){
+      cout << letter << endl;
       if (prev == true){
         currentCount++;
       }
@@ -27,7 +28,7 @@ void consecutiveOnes(){
         totalCount = currentCount;
       }
       prev = true;
-    }else if (letter != 1){
+    }else if (letter != '1'){
       prev = false;
       currentCount = 0;
     }
