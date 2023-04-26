@@ -4,10 +4,10 @@
 
 int main(void){
   char option;
-  
+  bool loop = true;
   StringMethods methodChooser;
 
-  while(true){
+  while(loop){
     std::cout << "\nC++ String Exercises\n"
               << "Select an option:\n"
               << "\n"
@@ -40,6 +40,7 @@ int main(void){
     {
     case 'q':
     case 'Q':
+      loop = false;
       break;
     case '1':
       methodChooser.reverseAString();
