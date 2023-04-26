@@ -16,6 +16,7 @@ int main(void){
               << "3. Find Largest Word\n"
               << "4. Count the Vowels\n"
               << "5. Consecutive Ones\n"
+              << "6. Remove a Character\n"
               << "Q. quit\n"
               << endl;
     std::cin >> option;
@@ -32,6 +33,8 @@ int main(void){
       methodChooser.countVowels();
     } else if (option == "5"){
       methodChooser.countConsecutiveOnes();
+    } else if (option == "6"){
+      methodChooser.removeACharacter();
     }
   }
 

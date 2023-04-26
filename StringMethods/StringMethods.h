@@ -28,4 +28,8 @@ struct StringMethods {
   static void countConsecutiveOnes(){
     consecutiveOnes();
   }
+
+  static void removeACharacter(){
+    removeCharacter();
+  }
 };
