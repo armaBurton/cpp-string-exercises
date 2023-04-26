@@ -7,7 +7,7 @@ using namespace std;
 
 void removeCharacter() {
   string consoleInput = inputAString("Type a sentence.");
-  string characterInput {};
+  char characterInput {};
   cout << endl 
        << "Type a single character to remove from the previous sentence." << endl;
   cin >> characterInput;
