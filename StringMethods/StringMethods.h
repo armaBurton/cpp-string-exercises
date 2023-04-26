@@ -5,6 +5,7 @@
 #include "./biggestWord/biggestword.cpp"
 #include "./countedVowels/countedVowels.cpp"
 #include "./consecutiveOnes/consecutiveOnes.cpp"
+#include "./removeCharacter/removeCharacter.cpp"
 
 using namespace std;
 
