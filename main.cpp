@@ -39,9 +39,26 @@ int main(void){
     switch (option)
     {
     case 'q':
-      /* code */
+    case 'Q':
       break;
-    
+    case '1':
+      methodChooser.reverseAString();
+      break;
+    case '2':
+      methodChooser.toTitleCase();
+      break;
+    case '3':
+      methodChooser.getBiggestWord();
+      break;
+    case '4':
+      methodChooser.countVowels();
+      break;
+    case '5':
+      methodChooser.countConsecutiveOnes();
+      break;
+    case '6':
+      methodChooser.removeACharacter();
+      break;
     default:
       break;
     }
