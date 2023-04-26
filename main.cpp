@@ -3,7 +3,7 @@
 #include "StringMethods\StringMethods.h"
 
 int main(void){
-  std::string option;
+  char option;
   
   StringMethods methodChooser;
 
@@ -21,22 +21,32 @@ int main(void){
               << endl;
     std::cin >> option;
 
-    if (option == "q" || option == "Q"){
+    // if (option == "q" || option == "Q"){
+    //   break;
+    // } else if (option == "1"){
+    //   methodChooser.reverseAString();
+    // } else if (option == "2"){
+    //   methodChooser.toTitleCase();
+    // } else if (option == "3"){
+    //   methodChooser.getBiggestWord();
+    // } else if (option == "4"){
+    //   methodChooser.countVowels();
+    // } else if (option == "5"){
+    //   methodChooser.countConsecutiveOnes();
+    // } else if (option == "6"){
+    //   methodChooser.removeACharacter();
+    // }
+    switch (option)
+    {
+    case 'q':
+      /* code */
       break;
-    } else if (option == "1"){
-      methodChooser.reverseAString();
-    } else if (option == "2"){
-      methodChooser.toTitleCase();
-    } else if (option == "3"){
-      methodChooser.getBiggestWord();
-    } else if (option == "4"){
-      methodChooser.countVowels();
-    } else if (option == "5"){
-      methodChooser.countConsecutiveOnes();
-    } else if (option == "6"){
-      methodChooser.removeACharacter();
+    
+    default:
+      break;
     }
   }
+
 
   return 0;
 }
