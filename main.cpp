@@ -45,6 +45,9 @@ int main(void){
     case '6':
       methodChooser.removeACharacter();
       break;
+    case '7':
+      methodChooser.countAllWords();
+      break;
     default:
       break;
     }
