@@ -33,4 +33,8 @@ struct StringMethods {
   static void removeACharacter(){
     removeCharacter();
   }
+
+  static void countAllWords(){
+    countWords();
+  }
 };
