@@ -17,6 +17,7 @@ int main(void){
               << "4. Count the Vowels\n"
               << "5. Consecutive Ones\n"
               << "6. Remove a Character\n"
+              << "7. Count Words\n"
               << "Q. quit\n"
               << endl;
     std::cin >> option;

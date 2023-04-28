@@ -6,6 +6,7 @@
 #include "./countedVowels/countedVowels.cpp"
 #include "./consecutiveOnes/consecutiveOnes.cpp"
 #include "./removeCharacter/removeCharacter.cpp"
+#include "./countWords/countWords.cpp"
 
 using namespace std;
 
