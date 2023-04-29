@@ -13,8 +13,6 @@ void countWords(){
     }
   }
 
-  cout << consoleInput << endl;
-
   for (auto letter : consoleInput){
      if (letter == ' '){
       wordCount++;
