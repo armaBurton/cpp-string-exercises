@@ -7,7 +7,7 @@ int main(void){
   bool loop = true;
   StringMethods methodChooser;
 
-  while(loop){
+  do{
     std::cout << "\nC++ String Exercises\n"
               << "Select an option:\n"
               << "\n"
@@ -52,7 +52,7 @@ int main(void){
     default:
       break;
     }
-  }
+  } while(loop);
 
   return 0;
 }
