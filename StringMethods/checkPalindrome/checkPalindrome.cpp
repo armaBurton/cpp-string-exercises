@@ -16,7 +16,7 @@ void checkPalindrome() {
     }
   }
 
-  cout << isPalindrome << endl;
+  if 
 
 
 
