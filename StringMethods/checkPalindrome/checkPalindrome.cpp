@@ -20,9 +20,5 @@ void checkPalindrome() {
     cout << "The text \"" << consoleInput << "\" is a palindrome.\n";
   } else {
     cout << "The text \"" << consoleInput << "\" is not a palindrome.\n";  
-
   }
-
-
-
 }
