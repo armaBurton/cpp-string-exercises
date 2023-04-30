@@ -17,8 +17,10 @@ void checkPalindrome() {
   }
 
   if (isPalindrome){
-    cout << "The text \"" << consoleInput << "\" is a palindrome.\n";
+    cout << endl
+         << "The text \"" << consoleInput << "\" is a palindrome.\n";
   } else {
-    cout << "The text \"" << consoleInput << "\" is not a palindrome.\n";  
+    cout << endl 
+         << "The text \"" << consoleInput << "\" is not a palindrome.\n";  
   }
 }
