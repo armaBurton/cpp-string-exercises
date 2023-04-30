@@ -18,6 +18,7 @@ int main(void){
               << "5. Consecutive Ones\n"
               << "6. Remove a Character\n"
               << "7. Count Words\n"
+              << "8. Palindrome Checker\n"
               << "Q. quit\n"
               << endl;
     std::cin >> option;
@@ -49,6 +50,8 @@ int main(void){
     case '7':
       methodChooser.countAllWords();
       break;
+    case '8':
+      methodChooser.palindrome();
     default:
       break;
     }

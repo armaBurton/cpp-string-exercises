@@ -7,6 +7,7 @@
 #include "./consecutiveOnes/consecutiveOnes.cpp"
 #include "./removeCharacter/removeCharacter.cpp"
 #include "./countWords/countWords.cpp"
+#include "./checkPalindrome/checkPalindrome.cpp"
 
 using namespace std;
 
@@ -37,5 +38,9 @@ struct StringMethods {
 
   static void countAllWords(){
     countWords();
+  }
+
+  static void palindrome(){
+    checkPalindrome();
   }
 };
