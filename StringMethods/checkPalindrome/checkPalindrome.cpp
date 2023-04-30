@@ -18,9 +18,9 @@ void checkPalindrome() {
 
   if (isPalindrome){
     cout << endl
-         << "Yes, The text \"" << consoleInput << "\" is a palindrome.\n";
+         << "Yes, the text \"" << consoleInput << "\" is a palindrome.\n";
   } else {
     cout << endl 
-         << "No, The text \"" << consoleInput << "\" is not a palindrome.\n";  
+         << "No, the text \"" << consoleInput << "\" is not a palindrome.\n";  
   }
 }
