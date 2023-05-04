@@ -46,6 +46,6 @@ struct StringMethods {
   }
 
   static void wordReverser(){
-    reverserWords();
+    reverseWords();
   }
 };
