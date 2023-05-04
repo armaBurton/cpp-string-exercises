@@ -17,8 +17,8 @@ void reverseWords() {
     } else {
       for (int i = tempWordHolder.length() - 1; i >= 0; i--){
         reversedWord += tempWordHolder[i];
-        reversedWord += " ";
       }      
+      reversedWord += " ";
       newString += reversedWord;
       tempWordHolder = "";
       reversedWord = "";
