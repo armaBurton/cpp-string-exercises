@@ -5,7 +5,7 @@
 using namespace std;
 
 void reverseWords() {
-  string consoleInput = inputAString("Enter a sentence to have it's words reversed");
+  string consoleInput = inputAString("Enter a sentence to have it's words reversed").append(" ");
   string tempWordHolder {},
          newString {},
          reversedWord;
