@@ -8,6 +8,7 @@
 #include "./removeCharacter/removeCharacter.cpp"
 #include "./countWords/countWords.cpp"
 #include "./checkPalindrome/checkPalindrome.cpp"
+#include "./reverseWords/reverseWords.cpp"
 
 using namespace std;
 
@@ -42,5 +43,9 @@ struct StringMethods {
 
   static void palindrome(){
     checkPalindrome();
+  }
+
+  static void wordReverser(){
+    reverserWords();
   }
 };
