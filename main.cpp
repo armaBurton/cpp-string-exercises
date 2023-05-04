@@ -19,6 +19,7 @@ int main(void){
               << "6. Remove a Character\n"
               << "7. Count Words\n"
               << "8. Palindrome Checker\n"
+              << "9. Word Reverser\n"
               << "Q. quit\n"
               << endl;
     std::cin >> option;
@@ -52,6 +53,10 @@ int main(void){
       break;
     case '8':
       methodChooser.palindrome();
+      break;
+    case '9':
+      methodChooser.wordReverser();
+      break;
     default:
       break;
     }
